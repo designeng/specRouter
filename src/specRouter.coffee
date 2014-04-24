@@ -1,18 +1,19 @@
 # specRouter use case
-# every object interested to add private route handler must define specRouter facet 
+# every object interested to add private route handler must define specRouter facet
 
 # controller:
 #   create: "controllerModule"
 #       specRouter:
 #           routes:
 #               "one/route": "oneRouteHandler"
+#               "two/route/{id}": "secondRouteHandler"
+#               ..... etc ...................
 
 define [
-    'crossroads'
+    "crossroads"
     "underscore"
     "hasher"
-    'when'
-], (crossroads, _, hasher, When) ->
+], (crossroads, _, hasher) ->
 
     return (options) ->
         
