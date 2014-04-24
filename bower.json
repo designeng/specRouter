@@ -4,6 +4,7 @@
     "dependencies": {
         "crossroads": "",
         "hasher": "",
+        "signals": "",
         "underscore": ""
     },
     "ignore": [
