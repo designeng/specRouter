@@ -1,0 +1,13 @@
+{
+    "name": "specRouter",
+    "version": "0.0.1",
+    "dependencies": {
+        "crossroads": "",
+        "hasher": ""
+    },
+    "ignore": [
+        "node_modules",
+        "bower_components",
+        "node_modules"
+    ]
+}
